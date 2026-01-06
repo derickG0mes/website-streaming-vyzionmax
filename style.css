@@ -1,0 +1,347 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bai+Jamjuree:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    background-color: #061222; /* 0a0d11 */
+}
+
+/* MENU DE NAVEGAÇÃO */
+span, h1, h2, h3, h4, h5, h6, p, a, button, td {
+    font-family: 'Bai Jamjuree', sans-serif;
+}
+
+h1 {
+    font-weight: normal;
+}
+h2 {
+    font-weight: 600; 
+}
+
+#menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    color: white;
+}
+
+#menu table {
+    width: 100%;
+}
+
+#menu tr {
+    font-size: 16px;
+}
+
+/* BOTÃO LOGIN */
+.botao-login {
+    padding: 10px 20px;
+    background-color: #FFCC00;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+/* SEÇÃO HOME DA PRIDEV */
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#section-home {
+    padding-top: 5%;
+    padding-bottom: 7%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    border-bottom: 3px solid #FFCC00;
+}
+
+.botao-conheca-pridevision {
+    margin-top: 70px;
+    padding: 15px 40px 15px 40px;
+    background-color: #FFCC00;
+    border: none;
+    border-radius: 20px;
+    font-size: 30px;
+}
+
+/* SEÇÃO DESTAQUES DA PRIDEV */
+#section-destaques {
+    padding-top: 2%;
+    padding-bottom: 7%;
+    width: 100%;
+    text-align: center;
+    color: white;
+    border-bottom: 3px solid #FFCC00;
+}
+
+#section-destaques h1 {
+    text-align: center;
+    padding-bottom: 2%;
+    font-size: 50px;
+    color: #FFCC00;
+}
+
+.container-destaques {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.espaco-entre-imagens {
+    padding-left: 8px;
+}
+
+.espaco-entre-textos {
+    padding-left: 8px;
+}
+
+.nome-filmes {
+    color: white;
+}
+
+.botao-assista-agora {
+    margin-top: 70px;
+    padding: 15px 40px 15px 40px;
+    background-color: #FFCC00;
+    border: none;
+    border-radius: 20px;
+    font-size: 30px;
+}
+
+/* SEÇÃO DE PLANOS DE ASSINATURA - MENSAL, ANUAL E ANUAL PLUS */
+#section-planos-assinaturas {
+    width: 100%;
+
+    padding-top: 2%;
+    padding-bottom: 7%;
+
+    text-align: center;
+    color: white;
+    border-bottom: 3px solid #FFCC00;
+}
+
+#section-planos-assinaturas h1 {
+    text-align: center;
+    padding-bottom: 2%;
+    font-size: 50px;
+    color: #FFCC00;
+}
+
+.container-planos-assinaturas {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+}
+
+.plano-mensal {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 30px;
+    border: 1px solid #FFCC00;
+}
+
+.plano-anual {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 30px;
+    border: 1px solid #FFCC00;
+}
+
+.plano-anual-plus {
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 30px;
+    border: 1px solid #FFCC00;
+
+}
+
+.titulo-plano-assinatura {
+    font-size: 20px;
+    color: #FFCC00;
+}
+
+.valor-plano-assinatura {
+    padding-top: 15px;
+    font-size: 22px;
+}
+
+.botao-plano-assinatura {
+    margin-top: 10px;
+    margin-bottom: 30px;
+    padding: 15px 20px 15px 20px;
+    background-color: #FFCC00;
+    border: none;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.texto-beneficios-planos {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+}
+
+.descricao-planos-assinatura {
+    padding-bottom: 10px;
+}
+
+/*SEÇÂO SOB MEDIDA DA PRIDEV*/
+#section-sob-medida {
+    width: 100%;
+
+    padding-top: 2%;
+    padding-bottom: 7%;
+
+    text-align: center;
+    color: white;
+    border-bottom: 3px solid #FFCC00;
+}
+
+#section-sob-medida h1 {
+    justify-content: center;
+    text-align: center;
+    padding-bottom: 2%;
+    font-size: 50px;
+    color: #FFCC00;
+}
+
+#imagens-sob-medida {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container-texto-sob-medida {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+}
+
+.container-texto-sob-medida h3 {
+    color: #FFCC00;
+    margin-bottom: 20px;
+}
+
+.container-texto-sob-medida p {
+    color: white;
+    margin: 10px 0;
+    max-width: 800px;
+}
+
+.container-texto-sob-medida span {
+    margin-top: 20px;
+    font-weight: bolder;
+    color: #FFCC00; 
+}
+
+
+
+/* Rodape da página */
+footer {
+    display: flex;
+    justify-content: space-around;
+    padding: 3rem 0;
+    color: white;
+    font-size: 20px;
+}
+
+footer a {
+    text-decoration: none;
+    margin: 10px;
+}
+
+footer img {
+    padding: 8px;
+    background-color: rgb(0, 64, 112);
+    border-radius: 10px;
+    transition: background 5s ease, transform 0.3s ease;
+}
+
+/* SESSÃO REDES SOCIAIS */
+.container-redes {
+    display: flex;
+    justify-content: center;
+    text-align: center; 
+    align-items: center;
+}
+
+.redes-sociais-titulo p {
+    width: 10px;
+    text-align: center;
+}
+
+.titulo-redes-sociais, .titulo-contato {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.titulo-redes-sociais {
+    margin-left: 13px;
+}
+
+.titulo-contato {
+    margin-left: 40px;
+}
+
+
+.redes-sociais {
+    margin-top: 35px;
+    width: 280px;
+}
+
+/* SESSÃO CONTATO */
+.container-contatos {
+    display: flex;
+    justify-content: center;
+    text-align: center; 
+    align-items: center;
+
+}
+
+.contatos {
+    margin-top: 35px;
+    width: 280px;
+}
+
+/* SESSÃO DIREITO */
+.direito {
+    display: flex;
+    color: white;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    width: 300px;
+    padding: 10px;
+}
+
+.copyright {
+    padding-top: 20px;
+    font-size: 14px;
+    color: white;
+}

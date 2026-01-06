@@ -1,0 +1,68 @@
+/* Estilo para o corpo da página (fundo escuro da imagem) */
+body {
+    color: #ffffff;
+    font-family: 'Bai Jamjuree', sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Estilo para o título principal "FILMES" */
+h1 {
+    margin-bottom: 30px;
+}
+
+/* TABELA DOS FILMES */
+
+
+.tabela-filmes {
+    /* Centraliza a tabela na página e define a largura máxima */
+    width: 90%; 
+    max-width: 1200px;
+    margin: 0 auto;
+    border-collapse: collapse; 
+    table-layout: fixed; /* Garante que as colunas tenham a mesma largura */
+}
+
+/* Estilo para cada célula (bloco) de filme */
+.celula-filme {
+    /* Define o alinhamento do texto e o espaçamento entre os filmes */
+    text-align: center;
+    padding: 10px;
+    vertical-align: top;
+}
+
+/* Estilo para o link que envolve a imagem e o título */
+.link-filme {
+    display: block;
+    text-decoration: none;
+    color: #ffffff;
+    transition: opacity 0.2s;
+}
+
+.link-filme:hover {
+    opacity: 0.8;
+}
+
+/* Estilo para a imagem do cartaz */
+.cartaz {
+    /* Define o tamanho da imagem para manter a proporção da imagem */
+    width: 100%; 
+    max-width: 180px; /* Largura máxima para cada cartaz */
+    height: 300px; /* Altura fixa para uniformidade */
+    display: block;
+    margin: 0 auto 5px auto; /* Centraliza a imagem e adiciona espaço abaixo */
+    
+    /* Borda sutil para simular o destaque */
+    border: 1px solid #1f3652;
+    object-fit: cover; /* Garante que a imagem preencha o espaço sem distorção */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
+}
+
+/* Estilo para o título do filme */
+.titulo-filme {
+    font-size: 0.85em;
+    font-weight: 500;
+    margin: 0;
+    padding: 0 5px;
+    line-height: 1.2;
+}
